@@ -39,7 +39,7 @@ Die Skripte sind dafür gemacht, ohne jegliche Benutzerinteraktion ausgeführt z
 
 Der Code in der `master` Branch ist immer in Entwicklung, aber Du möchtest wahrscheinlich sowieso die neueste Version.
 
-- [Download [zip]](https://github.com/W4RH4WK/Debloat-Windows-10/archive/master.zip)
+- [Download [zip]](https://github.com/MagicLike/Debloat-Windows-10/archive/master.zip)
 
 ## Ausführen
 
