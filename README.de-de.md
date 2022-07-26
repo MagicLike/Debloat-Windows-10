@@ -1,10 +1,5 @@
 # Debloat Windows 10
 
-### Übersetzungen
-[🇬🇧 Englische Version (`GB`)](README.md)
-
-<br>
-
 **Hinweis zu Windows 11:**
 Dieses Projekt unterstützt Windows 11 nicht direkt.
 Dinge könnten funktionieren oder auch nicht - finde es heraus, wenn du dir es zutraust.
@@ -29,6 +24,10 @@ Wenn Du dein System für Gaming benutzen möchtest, passe bitte die Skripte an.
 Windows Installation (mit Updates) zu verwenden. Teste alles nachdem Du sie genutzt hast,
 bevor Du etwas anderes tust. Außerdem gibt es keine Garantie das alles funktionieren wird,
 nach einem Update, da ich nicht vorhersagen kann was Microsoft als nächstes tun wird.
+
+## Übersetzungen
+
+- [🇬🇧 Englische Version (`GB`)](README.md)
 
 ## Interaktivität
 
@@ -135,6 +134,7 @@ schicke mir eine Pull-Request.
 - [maci0](https://github.com/maci0)
 - [narutards](https://github.com/narutards)
 - [tumpio](https://github.com/tumpio)
+- [MagicLike](https://github.com)
 
 ## Lizenz
 
