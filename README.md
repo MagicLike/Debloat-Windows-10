@@ -1,11 +1,5 @@
 # Debloat Windows 10
 
-
-### Translations
-[🇩🇪 German version (`DE`)](README.de-de.md)
-
-<br>
-
 **Note about Windows 11:**
 This project does not directly support Windows 11.
 Things might work, or might not work - find out if you are brave.
@@ -34,7 +28,7 @@ work after future updates since I cannot predict what Microsoft will do next.
 
 ## Translations
 
-- [Fork with German version](https://github.com/MagicLike/Debloat-Windows-10/blob/master/README.de-de.md)
+- [🇩🇪 German version (`DE`)](README.de-de.md)
 
 ## Interactivity
 
@@ -48,7 +42,7 @@ beforehand. If you want a more interactive approach check out
 Code located in the `master` branch is always considered under development, but
 you'll probably want the most recent version anyway.
 
-- [Download [zip]](https://github.com/W4RH4WK/Debloat-Windows-10/archive/master.zip)
+- [Download [zip]](https://github.com/MagicLike/Debloat-Windows-10/archive/master.zip)
 
 ## Execution
 
@@ -147,6 +141,7 @@ send me a pull request.
 - [maci0](https://github.com/maci0)
 - [narutards](https://github.com/narutards)
 - [tumpio](https://github.com/tumpio)
+- [MagicLike](https://github.com)
 
 ## License
 
