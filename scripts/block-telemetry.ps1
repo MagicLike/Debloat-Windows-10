@@ -33,7 +33,7 @@ $domains = @(
     "a1621.g.akamai.net"
     "a1856.g2.akamai.net"
     "a1961.g.akamai.net"
-    #"a248.e.akamai.net"            # makes iTunes download button disappear (#43)
+    "a248.e.akamai.net"            # makes iTunes download button disappear (#43)
     "a978.i6g1.akamai.net"
     "a.ads1.msn.com"
     "a.ads2.msads.net"
@@ -144,7 +144,7 @@ $domains = @(
     "client.wns.windows.com"
     #"wdcp.microsoft.com"                       # may cause issues with Windows Defender Cloud-based protection
     #"dns.msftncsi.com"                         # This causes Windows to think it doesn't have internet
-    #"storeedgefd.dsx.mp.microsoft.com"         # breaks Windows Store
+    "storeedgefd.dsx.mp.microsoft.com"         # breaks Windows Store
     "wdcpalt.microsoft.com"
     "settings-ssl.xboxlive.com"
     "settings-ssl.xboxlive.com-c.edgekey.net"
@@ -161,8 +161,8 @@ $domains = @(
     "hubspot.net.edge.net"
     "e9483.a.akamaiedge.net"
 
-    #"www.google-analytics.com"
-    #"padgead2.googlesyndication.com"
+    "www.google-analytics.com"
+    "padgead2.googlesyndication.com"
     #"mirror1.malwaredomains.com"
     #"mirror.cedia.org.ec"
     "stats.g.doubleclick.net"
@@ -191,7 +191,7 @@ $domains = @(
     # can cause issues with Skype (#79) or other services (#171)
     "apps.skype.com"
     "c.msn.com"
-    # "login.live.com"                  # prevents login to outlook and other live apps
+    "login.live.com"                  # prevents login to outlook and other live apps
     "pricelist.skype.com"
     "s.gateway.messenger.live.com"
     "ui.skype.com"
