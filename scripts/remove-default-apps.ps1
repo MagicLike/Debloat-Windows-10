@@ -121,10 +121,10 @@ $apps = @(
     #"Microsoft.BioEnrollment"
     #"Microsoft.MicrosoftEdge"
     #"Microsoft.Windows.Cortana"
-    #"Microsoft.WindowsFeedback"
+    "Microsoft.WindowsFeedback"
     #"Microsoft.XboxGameCallableUI"
     #"Microsoft.XboxIdentityProvider"
-    #"Windows.ContactSupport"
+    "Windows.ContactSupport"
 
     # apps which other apps depend on
     "Microsoft.Advertising.Xaml"
