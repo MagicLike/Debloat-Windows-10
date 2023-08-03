@@ -6,6 +6,9 @@
 Import-Module -DisableNameChecking $PSScriptRoot\..\lib\New-FolderForced.psm1
 Import-Module -DisableNameChecking $PSScriptRoot\..\lib\take-own.psm1
 
+# Create a new PSDrive to the HKEY_USERS hive
+New-PSDrive -PSProvider Registry -Name HKU -Root HKEY_USERS
+
 Write-Output "Elevating priviledges for this process"
 do {} until (Elevate-Privileges SeTakeOwnershipPrivilege)
 
@@ -92,6 +95,9 @@ Remove-Item -Path "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\E
 # Remove 3D Objects from This PC
 Remove-Item -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}"
 Remove-Item -Path "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}"
+
+echo "Enable Num Lock on logon and lock screen"
+sp "HKU:\.DEFAULT\Control Panel\Keyboard" "InitialKeyboardIndicators" 2
 
 #echo "Disabling tile push notification"
 #New-FolderForced -Path "HKCU:\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\PushNotifications"
