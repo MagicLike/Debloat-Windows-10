@@ -69,24 +69,38 @@ $services = @(
     "cbdhsvc_48486de"                               #Disables   cbdhsvc_48486de (clipboard service it disables)
     "BluetoothUserService_48486de"                  #disbales BluetoothUserService_48486de (The Bluetooth user service supports proper functionality of Bluetooth features relevant to each user session.)
     "WpnService"                                    #Disables WpnService (Push Notifications may not work )
-    #"StorSvc"                                       #Disables StorSvc (usb external hard drive will not be reconised by windows)
+    #"StorSvc"                                      #Disables StorSvc (usb external hard drive will not be reconised by windows)
     "RtkBtManServ"                                  #Disables Realtek Bluetooth Device Manager Service
     "QWAVE"                                         #Disables Quality Windows Audio Video Experience (audio and video might sound worse)
-     #Hp services
-    "HPAppHelperCap"
-    "HPDiagsCap"
-    "HPNetworkCap"
-    "HPSysInfoCap"
-    "HpTouchpointAnalyticsService"
+     #HP services
+    "HPAppHelperCap"                                #Disable HPAppHelperCap(used by hp software; safe to remove)
+    "HPDiagsCap"                                    #Disable HPDiagsCap(used by hp software; safe to remove)
+    "HPNetworkCap"                                  #Disable HPNetworkCap(used by hp software; safe to remove)
+    "HPSysInfoCap"                                  #Disable HPSysInfoCap(used by hp software; safe to remove)
+    "HpTouchpointAnalyticsService"                  #Disable HpTouchpointAnalyticsService(used by hp software; safe to remove)
     #hyper-v services
-     "HvHost"                          
-    "vmickvpexchange"
-    "vmicguestinterface"
-    "vmicshutdown"
-    "vmicheartbeat"
-    "vmicvmsession"
-    "vmicrdv"
-    "vmictimesync" 
+     "HvHost"                                       #Manages and supports Hyper-V virtualization services
+    "vmickvpexchange"                               #Facilitates communication between the host and virtual machines
+    "vmicguestinterface"                            #Provides network communication for guest virtual machines
+    "vmicshutdown"                                  #Allows for proper shutdown coordination between host and virtual machines
+    "vmicheartbeat"                                 #Monitors the heartbeat status of virtual machines for health monitoring
+    "vmicvmsession"                                 #Manages sessions between the host and virtual machines
+    "vmicrdv"                                       #Handles Remote Desktop Virtualization
+    "vmictimesync"                                  #Ensures time synchronization between the host and virtual machines.
+    # Dell services can somone with a dell latop conform these are the names?
+    "SupportAssistAgent"                            #Automated support and system health monitoring for Dell Computer
+    "DellUpService"                                 #Manages Dell driver and software updates for Dell Computer
+    "DataVault"                                     #Provides data protection and management features for Dell computer
+    "DellCustomerConnect"                           #Offers promotions and deals for Dell computer
+    "Dell.Foundation.Agent"                         #Supports other Dell software functionalities for Dell computer
+    "nosGetPlusHelper"                              #Handles software delivery and installation process for Dell computer
+    #Lenovo can someone with a dell conform these are the names?
+    "LSCNotify"                                     #Collects data for for Lenovo computer
+    "LnvAgent"                                      #Provides system updates and support For Lenovo computers
+    "Lenovo.Modern.ImController.PluginHost.CompanionApp" # Part of Lenovo Vantage for system management.
+    "Lenovo.Modern.ImController.PluginHost.Device"  # Handles device-related functions in Lenovo Vantage.
+    "Lenovo.Modern.ImController"                    #Manages system settings and updates.
+    "LenovoUtility"                                 #Offers various utility functions for Lenovo devices.
     # Services which cannot be disabled
     #"WdNisSvc"
 )
